@@ -205,6 +205,16 @@ a {
   margin: 1rem 0;
   background-color: #eff0f1;
   border: 0; }
+  
+.main-navigation > li {
+    position: relative;
+    display: inline-block;
+    left: -7px;
+    margin: 0 7px;
+    background-color: #333;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
 
 @media screen and (min-width: 64em) {
   .main-content {
