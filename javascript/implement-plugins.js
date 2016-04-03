@@ -3,7 +3,9 @@ window.onload = function(){
   //PopUpNoBlocker
   (function() {
     var divs = document.querySelectorAll("[data-url]");
-    alert(divs.length);
+    [].forEach.call(divs, function(div) {
+      div.onclick = popUpNoBlocker(div.getAttribute("data-url"));
+    });
   })();
 
 
