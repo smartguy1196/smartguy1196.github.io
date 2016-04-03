@@ -1,8 +1,8 @@
 window.onload = function(){
 
   //PopUpNoBlocker
-  alert("called");
   (function() {
+    alert("called");
     var divs = document.querySelectorAll("[data-url]");
     alert(divs.length);
   });
