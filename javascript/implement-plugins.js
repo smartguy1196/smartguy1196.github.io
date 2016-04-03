@@ -1,5 +1,7 @@
 //PopUpNoBlocker
-[].slice.call(document.querySelectorAll("[data-url]")).forEach(
-  function(value, index, array){
-    array[index].onclick=popUpNoBlocker(array[index].getAttribute('data-url'));
+(function() {
+  var divs = document.querySelectorAll("[data-url]"))
+  [].forEach.call(divs, function(div) {
+    div.onclick=popUpNoBlocker(div.getAttribute('data-url'));
   });
+});
