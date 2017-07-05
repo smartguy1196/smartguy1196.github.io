@@ -1,0 +1,12 @@
+#trinket-3D-feed {
+  -webkit-transform: scale(0.8) skewX(45deg);
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform: scale(0.8) skewX(45deg);
+  -moz-transform-origin: 0% 0%;
+  -o-transform: scale(0.8) skewX(45deg);
+  -o-transform-origin: 0% 0%;
+  -ms-transform: scale(0.8) skewX(45deg);
+  -ms-transform-origin: 0% 0%;
+  transform: scale(0.8) skewX(45deg);
+  transform-origin: 0% 0%;
+}
